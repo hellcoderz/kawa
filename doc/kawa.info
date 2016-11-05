@@ -1,0 +1,391 @@
+This is kawa.info, produced by makeinfo version 5.2 from kawa.texi.
+
+START-INFO-DIR-ENTRY
+* kawa: (kawa).         The Kawa Scheme language
+END-INFO-DIR-ENTRY
+
+
+Indirect:
+kawa.info-1: 159
+kawa.info-2: 314539
+kawa.info-3: 604510
+
+Tag Table:
+(Indirect)
+Node: Top159
+Node: Features2601
+Node: Implemented SRFIs5723
+Node: Compatibility10945
+Node: Community13295
+Node: Reporting bugs13750
+Node: Mailing lists14417
+Node: Acknowledgements15413
+Node: Support20352
+Node: Projects21432
+Node: Ideas and tasks24945
+Ref: task-parameterized-types27906
+Ref: task-faster-tailcalls29151
+Ref: task-TreeList-optimization29286
+Ref: task-REPL-improvements30455
+Ref: task-common-lisp31996
+Node: Installation40828
+Node: Getting Kawa41212
+Node: Running Java42956
+Node: Binary distribution44211
+Node: Source distribution45567
+Ref: configure options48308
+Ref: building-on-Windows-with-make51662
+Node: Tutorial56537
+Node: Tutorial - Introduction57722
+Node: Tutorial - Booleans61390
+Node: Tutorial - Numbers63053
+Node: Tutorial - Functions64422
+Node: Tutorial - Variables65535
+Node: Tutorial - Sequences66805
+Node: Tutorial - Objects71316
+Node: Tutorial - Types75048
+Node: Tutorial - Exceptions and errors77205
+Node: Tutorial - Classes78332
+Node: Tutorial - Other Java features78573
+Node: Running79787
+Node: Options81289
+Node: Scripts99894
+Node: New-Window106901
+Node: Exiting107489
+Node: Compiling108262
+Node: Files compilation110192
+Node: Archive compilation112889
+Node: Compiling using Ant113738
+Node: Application compilation114231
+Node: Applet compilation116160
+Node: Compiling to executable118825
+Node: Syntax119181
+Node: Syntax notation119579
+Node: Lexical and datum syntax120444
+Node: Lexical syntax122909
+Ref: meta-lexeme124386
+Ref: meta-delimiter124671
+Ref: meta-intraline-whitespace125379
+Ref: meta-whitespace125438
+Ref: meta-line-ending125641
+Ref: meta-comment125801
+Ref: meta-nested-comment126029
+Ref: meta-comment-text126099
+Ref: meta-comment-cont126176
+Ref: meta-atmosphere126226
+Ref: meta-interlexeme-space126267
+Ref: meta-shebang-comment126702
+Ref: meta-identifier128269
+Ref: meta-initial128345
+Ref: meta-letter128426
+Ref: meta-constituent128546
+Ref: meta-special-initial128776
+Ref: meta-subsequent128943
+Ref: meta-digit129076
+Ref: meta-oct-digit129189
+Ref: meta-hex-digit129286
+Ref: meta-special-subsequent129445
+Ref: meta-escape-sequence129511
+Ref: meta-inline-hex-escape129634
+Ref: meta-hex-scalar-value129693
+Ref: meta-multi-escape-sequence129730
+Ref: meta-symbol-element129792
+Ref: meta-character-except-x129921
+Ref: meta-peculiar-identifier129978
+Ref: meta-number133008
+Ref: meta-decimal133051
+Ref: meta-optional-exponent133185
+Ref: meta-exponent-marker133264
+Ref: meta-optional-sign133907
+Ref: meta-digit-2133956
+Ref: meta-digit-8133991
+Ref: meta-digit-10134086
+Ref: meta-digit-16134110
+Node: Datum syntax134198
+Ref: meta-datum134621
+Ref: meta-nondefining-datum134715
+Ref: meta-lexeme-datum134787
+Ref: meta-symbol134870
+Ref: meta-compound-datum134897
+Ref: meta-list134992
+Ref: meta-vector135107
+Ref: meta-uniform-vector135145
+Ref: datum labels135175
+Ref: meta-datum-label135214
+Ref: meta-defining-datum135258
+Ref: meta-defined-datum135313
+Ref: meta-indexnum135359
+Ref: meta-abbreviation136365
+Ref: meta-r6rs-abbreviation136425
+Ref: meta-abbrev-prefix136472
+Ref: meta-kawa-abbreviation136578
+Node: Hash-prefixed forms137614
+Node: Primitive expression syntax140764
+Ref: meta-expression140948
+Ref: literal-expression141040
+Ref: meta-literal-expression141093
+Ref: meta-constant141190
+Ref: variable-reference142397
+Ref: meta-variable-reference142450
+Ref: meta-procedure-call142920
+Ref: meta-operator142973
+Ref: meta-operand143002
+Node: Colon notation143540
+Ref: meta-property-access-abbreviation144009
+Ref: meta-property-owner-expression144093
+Ref: meta-property-name144139
+Node: Bodies147613
+Ref: program units147775
+Ref: meta-program-unit147875
+Ref: meta-statements147951
+Ref: meta-statement147983
+Ref: implicit library149553
+Ref: meta-body151026
+Node: Syntax and conditional compilation152104
+Ref: meta-cond-expand-clause152420
+Ref: meta-feature-requirement152510
+Ref: meta-feature-identifier152771
+Ref: include155638
+Ref: include-relative155638
+Node: Macros157124
+Ref: macro-reference157268
+Ref: meta-transformer-spec163936
+Ref: meta-syntax-rule164141
+Ref: meta-tr-literal164205
+Ref: meta-ellipsis164236
+Ref: meta-syntax-pattern164790
+Ref: meta-list-pattern164875
+Ref: meta-vector-pattern165198
+Ref: meta-syntax-template168755
+Ref: meta-template-element168980
+Node: Named quasi-literals190815
+Ref: meta-extended-datum-literal192418
+Ref: meta-cname192628
+Ref: meta-named-literal-part192654
+Node: Program structure192904
+Node: Boolean values193287
+Ref: meta-boolean193580
+Node: Conditionals196015
+Ref: meta-test-expression196157
+Ref: meta-consequent196193
+Ref: meta-alternate196224
+Ref: meta-cond-clause197173
+Ref: meta-case-key199314
+Ref: meta-case-clause199348
+Ref: meta-case-else-clause199483
+Node: Definitions203991
+Node: Local binding constructs207181
+Node: Lazy evaluation210931
+Node: Threads223950
+Node: Exceptions225409
+Node: Multiple values235907
+Node: Symbols and namespaces239774
+Node: Simple symbols240569
+Node: Namespaces242174
+Node: Keywords252463
+Ref: meta-keyword252959
+Node: Special named constants254339
+Node: Procedures255500
+Node: Procedure properties256694
+Node: Generic procedures259283
+Node: Extended formals261035
+Ref: meta-lambda-expression261431
+Ref: meta-return-type261522
+Ref: meta-opt-return-type261548
+Ref: meta-formals261598
+Ref: meta-formal-arguments261797
+Ref: meta-req-opt-args261880
+Ref: meta-rest-key-args261945
+Ref: meta-req-arg262018
+Ref: meta-opt-arg262101
+Ref: meta-key-arg262135
+Ref: meta-arg-with-default262169
+Ref: meta-rest-arg262316
+Node: Partial application265052
+Node: Numbers267789
+Node: Numerical types268282
+Node: Arithmetic operations276253
+Node: Numerical input and output294383
+Node: Quaternions296943
+Node: Quantities314539
+Ref: meta-quantity314999
+Ref: meta-unit-term315092
+Ref: meta-unit-name315138
+Node: Logical Number Operations316940
+Node: Performance of numeric operations327970
+Node: Characters and text330668
+Node: Characters330979
+Ref: meta-character334119
+Node: Character sets337758
+Node: Strings339050
+Node: String literals362752
+Ref: meta-string363140
+Ref: meta-string-element363187
+Ref: meta-mnemonic-escape363408
+Ref: string quasi-literals365986
+Ref: meta-extended-string-literal366514
+Ref: meta-string-literal-part366604
+Ref: meta-char-ref367458
+Ref: meta-entity-ref367550
+Ref: meta-char-or-entity-name367615
+Ref: meta-initial-ignored368913
+Ref: meta-special-escape369008
+Ref: meta-enclosed-part370947
+Ref: meta-enclosed-modifier371574
+Node: Unicode373316
+Node: Regular expressions380176
+Node: Data structures390662
+Node: Sequences390971
+Node: Lists393732
+Ref: SRFI-1396370
+Ref: SRFI-101397020
+Node: Vectors397514
+Node: Uniform vectors405996
+Node: Bytevectors413147
+Node: Streams417702
+Node: Arrays418828
+Node: Hash tables424780
+Node: Eval and Environments443111
+Node: Locations447260
+Node: Parameter objects450426
+Ref: parameterize-syntax454519
+Node: Debugging455778
+Node: Input-Output457089
+Node: Named output formats457590
+Node: Paths460599
+Ref: URI-type463271
+Node: Files468555
+Node: Reading and writing whole files470708
+Ref: Blobs471528
+Node: Ports474298
+Ref: port-char-encoding498679
+Node: Format501175
+Node: Resources510491
+Node: Types512240
+Ref: meta-type514401
+Ref: meta-opt-type-specifier514426
+Node: Standard Types514555
+Node: Parameterized Types519119
+Node: Type tests and conversions519793
+Node: Objects Classes and Modules521012
+Node: Defining new classes522496
+Ref: meta-class-name524150
+Ref: meta-option-pair524181
+Ref: meta-field-or-method-decl524230
+Ref: meta-field-decl527370
+Ref: meta-field-name527465
+Ref: meta-field-option527496
+Ref: meta-method-decl530541
+Ref: meta-method-name530711
+Ref: meta-method-body530743
+Ref: meta-deprecated-return-specifier530805
+Node: Anonymous classes535618
+Ref: meta-object-field-or-method-decl535973
+Ref: meta-object-field-decl536047
+Ref: meta-object-init536170
+Ref: SAM-conversion537060
+Node: Enumerations538107
+Node: Annotations540407
+Ref: meta-annotation541648
+Ref: meta-annotations-element-values541730
+Ref: meta-annotation-element-pair541828
+Ref: meta-annotation-element-value541894
+Ref: meta-annotation-typename541939
+Node: Module classes543736
+Ref: meta-export-declaration545855
+Ref: meta-export-spec546190
+Ref: meta-library-definition547793
+Ref: meta-library-name547855
+Ref: meta-library-name-parts547912
+Ref: meta-library-declaration548754
+Ref: module-name552008
+Ref: static-or-non-modules556481
+Node: Importing562787
+Ref: require562963
+Ref: meta-import-declaration563232
+Ref: meta-import-set563499
+Ref: meta-library-reference563941
+Ref: meta-import-only-name564030
+Ref: meta-explicit-source-name564084
+Ref: meta-rename-pair564126
+Node: Record types577071
+Node: Dynamic records581263
+Node: Method operations585562
+Node: Allocating objects598131
+Ref: meta-constructor-value601029
+Ref: meta-property-initializer601067
+Ref: meta-child-value601116
+Node: Field operations604510
+Node: Mangling609655
+Node: Scheme types in Java613803
+Node: Array operations615629
+Ref: Creating-new-Java-arrays615828
+Node: Loading Java functions into Scheme618445
+Node: Evaluating Scheme expressions from Java623417
+Node: XML tools626129
+Node: Formatting XML628118
+Node: Creating HTML nodes630466
+Node: Creating XML nodes632339
+Node: XML literals634782
+Ref: meta-xml-literal635649
+Ref: meta-xml-constructor635693
+Ref: meta-xml-element-constructor635892
+Ref: meta-xml-name-form636144
+Ref: meta-xml-enclosed-expression636206
+Ref: meta-xml-element-datum637693
+Ref: meta-xml-escaped637817
+Ref: meta-xml-character-reference637950
+Ref: meta-xml-entity-name638170
+Ref: meta-xml-attribute638602
+Ref: meta-xml-attribute-value638674
+Ref: meta-quot-attribute-datum638797
+Ref: meta-apos-attribute-datum638908
+Ref: meta-QName639482
+Ref: meta-xml-local-part639554
+Ref: meta-xml-prefix639589
+Ref: meta-xml-namespace-declaration-attribute639843
+Ref: meta-xml-PI-constructor640894
+Ref: meta-xml-PI-target640967
+Ref: meta-xml-PI-content641039
+Ref: meta-xml-comment-constructor641654
+Ref: meta-xml-comment-content641728
+Ref: meta-xml-CDATA-constructor641964
+Ref: meta-xml-CDATA-content642037
+Node: Server-side scripts642408
+Node: Self-configuring page scripts645932
+Node: Servlets653674
+Node: CGI scripts661297
+Node: HTTP requests663232
+Node: HTTP response671203
+Node: XML beyond Scheme673247
+Node: KRL674288
+Node: Miscellaneous676822
+Node: Building JavaFX applications677669
+Node: Building for Android679701
+Node: Android view construction686591
+Node: System inquiry690351
+Node: Processes694421
+Ref: meta-process-keyword-argument696636
+Ref: meta-process-misc-argument696854
+Ref: process literals697302
+Ref: substitution-tokenization700238
+Ref: meta-process-redirect-argument704375
+Ref: meta-process-environment-argument708837
+Node: Time-related functions714445
+Node: Low-level functions716890
+Ref: Low-level Method invocation717180
+Ref: Low-level array macros720622
+Node: FAQs722149
+Ref: importing-class-names722292
+Node: Framework726209
+Node: License727716
+Node: Software-License727944
+Node: Manual-License731488
+Node: Overall Index737771
+
+End Tag Table
+
+
+Local Variables:
+coding: utf-8
+End:
